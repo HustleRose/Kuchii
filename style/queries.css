@@ -32,10 +32,9 @@
 */
 
 .frame {
-    margin-top: 40%;
-    width: 80%;
-     height: 80%; 
-
+    margin-top: 28%;
+    margin-left: 14%;
+    width="300" height="380"
 
 }
 
@@ -43,8 +42,8 @@
 */
 .container {
     position: absolute;
-    top: 50%;
-    left: 85%;
+    top: 95%;
+    left: 75%;
     transform: translate(-50%, -50%);
     width: 250px;
     height: 147px;
@@ -74,7 +73,7 @@
   .head::after {
     content: "";
     position: absolute;
-    top: 29,5px;
+    top: 29.5px;
     left: -36.5px;
     width: 0;
     height: 0;
