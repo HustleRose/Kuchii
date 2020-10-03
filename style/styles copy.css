@@ -2,10 +2,20 @@ body {
   background: #333e4f;
   zoom: 150%;
 }
+
+.frame {
+  margin-top: 10%;
+  margin-left: 40%;
+  
+
+
+}
+
 .container {
   position: absolute;
-  top: 50%;
-  left: 85%;
+  top: 78%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 250px;
   height: 294px;
@@ -30,6 +40,7 @@ body {
   height: 69px;
   background: #f2f2f2;
   border-radius: 10px;
+  -webkit-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
 .head::after {
@@ -70,6 +81,7 @@ body {
   height: 10px;
   border-radius: 40px 40px 0 0;
   background: #f2f2f2;
+  -webkit-transform: rotate(-40deg);
   transform: rotate(-40deg);
 }
 .ear::before {
@@ -101,6 +113,7 @@ body {
   border-right: 25px solid #f2f2f2;
   border-bottom: 25px solid #f2f2f2;
   border-radius: 0 0 150px 0;
+  -webkit-transform: rotate(-8deg);
   transform: rotate(-8deg);
 }
 .neck::after {
@@ -113,6 +126,7 @@ body {
   border-right: 25px solid #f2f2f2;
   border-bottom: 25px solid #f2f2f2;
   border-radius: 0 0 150px 0;
+  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
 .horn {
@@ -125,6 +139,7 @@ body {
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
   border-bottom: 90px solid #c69a6e;
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 /*
@@ -228,9 +243,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color1 1.2s infinite alternate;
-  -moz-animation: color1 1.2s infinite alternate;
-  -ms-animation: color1 1.2s infinite alternate;
-  -o-animation: color1 1.2s infinite alternate;
   animation: color1 1.2s infinite alternate;
 }
 .mane-two {
@@ -245,9 +257,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color2 1.4s infinite alternate;
-  -moz-animation: color2 1.4s infinite alternate;
-  -ms-animation: color2 1.4s infinite alternate;
-  -o-animation: color2 1.4s infinite alternate;
   animation: color2 1.4s infinite alternate;
 }
 .mane-three {
@@ -262,9 +271,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color3 1.3s infinite alternate;
-  -moz-animation: color3 1.3s infinite alternate;
-  -ms-animation: color3 1.3s infinite alternate;
-  -o-animation: color3 1.3s infinite alternate;
   animation: color3 1.3s infinite alternate;
 }
 .mane-four {
@@ -279,9 +285,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color4 1s infinite alternate;
-  -moz-animation: color4 1s infinite alternate;
-  -ms-animation: color4 1s infinite alternate;
-  -o-animation: color4 1s infinite alternate;
   animation: color4 1s infinite alternate;
 }
 .mane-five {
@@ -296,9 +299,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color5 1.2s infinite alternate;
-  -moz-animation: color5 1.2s infinite alternate;
-  -ms-animation: color5 1.2s infinite alternate;
-  -o-animation: color5 1.2s infinite alternate;
   animation: color5 1.2s infinite alternate;
 }
 .mane-six {
@@ -313,9 +313,6 @@ body {
   -webkit-transform: skew(45deg);
   border-radius: 5px;
   -webkit-animation: color6 1.1s infinite alternate;
-  -moz-animation: color6 1.1s infinite alternate;
-  -ms-animation: color6 1.1s infinite alternate;
-  -o-animation: color6 1.1s infinite alternate;
   animation: color6 1.1s infinite alternate;
 }
 .hand {
@@ -374,30 +371,6 @@ body {
     background-color: #f55c66;
   }
 }
-@-moz-keyframes color1 {
-  from {
-    background-color: #8e44ad;
-  }
-  to {
-    background-color: #f55c66;
-  }
-}
-@-ms-keyframes color1 {
-  from {
-    background-color: #8e44ad;
-  }
-  to {
-    background-color: #f55c66;
-  }
-}
-@-o-keyframes color1 {
-  from {
-    background-color: #8e44ad;
-  }
-  to {
-    background-color: #f55c66;
-  }
-}
 @keyframes color1 {
   from {
     background-color: #8e44ad;
@@ -408,30 +381,6 @@ body {
 }
 /* color2 */
 @-webkit-keyframes color2 {
-  from {
-    background-color: #73c6b6;
-  }
-  to {
-    background-color: #ffb838;
-  }
-}
-@-moz-keyframes color2 {
-  from {
-    background-color: #73c6b6;
-  }
-  to {
-    background-color: #ffb838;
-  }
-}
-@-ms-keyframes color2 {
-  from {
-    background-color: #73c6b6;
-  }
-  to {
-    background-color: #ffb838;
-  }
-}
-@-o-keyframes color2 {
   from {
     background-color: #73c6b6;
   }
@@ -456,30 +405,6 @@ body {
     background-color: #14f791;
   }
 }
-@-moz-keyframes color3 {
-  from {
-    background-color: #f1948a;
-  }
-  to {
-    background-color: #14f791;
-  }
-}
-@-ms-keyframes color3 {
-  from {
-    background-color: #f1948a;
-  }
-  to {
-    background-color: #14f791;
-  }
-}
-@-o-keyframes color3 {
-  from {
-    background-color: #f1948a;
-  }
-  to {
-    background-color: #14f791;
-  }
-}
 @keyframes color3 {
   from {
     background-color: #f1948a;
@@ -490,30 +415,6 @@ body {
 }
 /* color4 */
 @-webkit-keyframes color4 {
-  from {
-    background-color: #f39c12;
-  }
-  to {
-    background-color: #253ff9;
-  }
-}
-@-moz-keyframes color4 {
-  from {
-    background-color: #f39c12;
-  }
-  to {
-    background-color: #253ff9;
-  }
-}
-@-ms-keyframes color4 {
-  from {
-    background-color: #f39c12;
-  }
-  to {
-    background-color: #253ff9;
-  }
-}
-@-o-keyframes color4 {
   from {
     background-color: #f39c12;
   }
@@ -538,30 +439,6 @@ body {
     background-color: #f341d3;
   }
 }
-@-moz-keyframes color5 {
-  from {
-    background-color: #d0ece7;
-  }
-  to {
-    background-color: #f341d3;
-  }
-}
-@-ms-keyframes color5 {
-  from {
-    background-color: #d0ece7;
-  }
-  to {
-    background-color: #f341d3;
-  }
-}
-@-o-keyframes color5 {
-  from {
-    background-color: #d0ece7;
-  }
-  to {
-    background-color: #f341d3;
-  }
-}
 @keyframes color5 {
   from {
     background-color: #d0ece7;
@@ -578,34 +455,11 @@ body {
   width: 58px;
   height: 100px;
   background: #1f2431;
+  -webkit-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
 /* color6 */
 @-webkit-keyframes color6 {
-  from {
-    background-color: #85c1e9;
-  }
-  to {
-    background-color: #7c0dff;
-  }
-}
-@-moz-keyframes color6 {
-  from {
-    background-color: #85c1e9;
-  }
-  to {
-    background-color: #7c0dff;
-  }
-}
-@-ms-keyframes color6 {
-  from {
-    background-color: #85c1e9;
-  }
-  to {
-    background-color: #7c0dff;
-  }
-}
-@-o-keyframes color6 {
   from {
     background-color: #85c1e9;
   }
@@ -639,8 +493,14 @@ body {
 
 .sign {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 50%;
   height: 50%;
@@ -649,6 +509,7 @@ body {
     #6b1839,
     transparent
   );
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   letter-spacing: 2;
   left: 50%;
@@ -660,7 +521,30 @@ body {
   text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  -webkit-animation: shine 2s forwards, flicker 3s infinite;
   animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+  28%,
+  33% {
+    color: #ff65bd;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ff2483;
+    text-shadow: none;
+  }
 }
 
 @keyframes blink {
@@ -686,11 +570,26 @@ body {
 }
 
 .flicker {
+  -webkit-animation: shine 2s forwards, blink 3s 2s infinite;
   animation: shine 2s forwards, blink 3s 2s infinite;
 }
 
 .fast-flicker {
+  -webkit-animation: shine 2s forwards, blink 10s 1s infinite;
   animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
 }
 
 @keyframes shine {
@@ -703,6 +602,132 @@ body {
     text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
       -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
       0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+}
+
+@-webkit-keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
