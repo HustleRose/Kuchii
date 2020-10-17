@@ -3,7 +3,28 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .container2 {
+
+    width:30%;
+    position: absolute;
+    margin-left:  -8px;
+    margin-top: -380px;
+  
+    
+  
+  }
+  .container {
+
+    width:30%;
+    position: absolute;
+  
+    margin-top: -60px;
+  
+    
+  
+  }
     .sign {
+      margin-left: 20px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -37,6 +58,7 @@
     
 
 }
+
 
 /*  
 */
@@ -661,7 +683,9 @@
     }
   }
 
+ 
+
 
 @media only screen and (max-width: 480px) {
-
+  
 }
